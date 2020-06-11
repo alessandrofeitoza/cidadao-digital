@@ -6,6 +6,6 @@
     </header>
     <a href="#work" class="jumplink pic">
         <span class="arrow icon solid fa-chevron-right"><span>Saiba mais</span></span>
-        <img src="/desafio01/images/me.jpg" alt="" />
+        <img src="<?=Config::PROJECT_BASE_URL?>images/me.jpg" alt="" />
     </a>
 </article>
