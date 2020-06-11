@@ -1995,7 +1995,24 @@ input, select, textarea {
 				align-items: center;
 			}
 
-				#main > .panel.intro .pic {
+			#main > .panel.article-2 {
+				padding: 0;
+				height: 20em;
+				display: -moz-flex;
+				display: -webkit-flex;
+				display: -ms-flex;
+				display: flex;
+				-moz-flex-direction: row;
+				-webkit-flex-direction: row;
+				-ms-flex-direction: row;
+				flex-direction: row;
+				-moz-align-items: center;
+				-webkit-align-items: center;
+				-ms-align-items: center;
+				align-items: center;
+			}
+
+				#main > .panel.intro .pic, .panel.article-2 .pic {
 					text-decoration: none;
 					position: relative;
 					-moz-flex-grow: 0;
@@ -2010,7 +2027,7 @@ input, select, textarea {
 					height: 100%;
 				}
 
-					#main > .panel.intro .pic:before {
+					#main > .panel.intro .pic:before, .panel.article-2 .pic:before {
 						content: '';
 						position: absolute;
 						top: 0;
@@ -2021,7 +2038,7 @@ input, select, textarea {
 						z-index: 1;
 					}
 
-					#main > .panel.intro .pic img {
+					#main > .panel.intro .pic img, .panel.article-2 .pic img {
 						position: relative;
 						display: block;
 						position: absolute;
@@ -2039,7 +2056,7 @@ input, select, textarea {
 						object-position: center;
 					}
 
-					#main > .panel.intro .pic .arrow {
+					#main > .panel.intro .pic .arrow, .panel.article-2 .pic .arrow {
 						display: block;
 						position: absolute;
 						right: 0;
@@ -2060,23 +2077,23 @@ input, select, textarea {
 						transition: width .15s ease-in-out, padding-right .15s ease-in-out;
 					}
 
-						#main > .panel.intro .pic .arrow:before {
+						#main > .panel.intro .pic .arrow:before, .panel.article-2 .pic .arrow:before {
 							position: relative;
 							padding-right: 0;
 							top: 0.125em;
 						}
 
-						#main > .panel.intro .pic .arrow span {
+						#main > .panel.intro .pic .arrow span, .panel.article-2 .pic .arrow span {
 							display: block;
 							text-indent: -9999px;
 						}
 
-					#main > .panel.intro .pic:hover .arrow {
+					#main > .panel.intro .pic:hover .arrow, .panel.article-2 .pic:hover .arrow {
 						width: 3em;
 						padding-right: 0.25em;
 					}
 
-				#main > .panel.intro header {
+				#main > .panel.intro header, .panel.article-2 header {
 					-moz-flex-grow: 1;
 					-webkit-flex-grow: 1;
 					-ms-flex-grow: 1;
@@ -2097,7 +2114,8 @@ input, select, textarea {
 
 					#main > .panel.intro header p {
 						letter-spacing: -0.015em;
-						font-size: 1.25em;
+						font-size: 0.8em;
+						line-height: 1.5;
 						margin: 0.25em 0 0 0;
 					}
 
