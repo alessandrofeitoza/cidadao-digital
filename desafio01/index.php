@@ -32,11 +32,11 @@
         </div>
 
 		<!-- Scripts -->
-        <script src="/desafio01/assets/js/jquery.min.js"></script>
-        <script src="/desafio01/assets/js/browser.min.js"></script>
-        <script src="/desafio01/assets/js/breakpoints.min.js"></script>
-        <script src="/desafio01/assets/js/util.js"></script>
-        <script src="/desafio01/assets/js/main.js"></script>
+        <script src="<?=Config::PROJECT_BASE_URL?>assets/js/jquery.min.js"></script>
+        <script src="<?=Config::PROJECT_BASE_URL?>assets/js/browser.min.js"></script>
+        <script src="<?=Config::PROJECT_BASE_URL?>assets/js/breakpoints.min.js"></script>
+        <script src="<?=Config::PROJECT_BASE_URL?>assets/js/util.js"></script>
+        <script src="<?=Config::PROJECT_BASE_URL?>assets/js/main.js"></script>
 
 	</body>
 </html>
